@@ -5,10 +5,9 @@ printf("enter a number:");
 scanf("%d",&number);
 if(number > 0){
 printf("positive number");
-}elif(number < 0){
+}else if(number < 0){
 printf("negative number");
-}else(number = 0)
+}else
 printf("zero");
-}
 return 0;
 }
